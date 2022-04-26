@@ -1,5 +1,5 @@
 class Animal():
-    def cat(self, name, length_of_the_legs, number_of_eyes):
+    def _init_(self, name, length_of_the_legs, number_of_eyes):
         self.name = name
         self.length_of_the_legs = length_of_the_legs
         self.number_of_eyes = number_of_eyes
