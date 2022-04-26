@@ -1,14 +1,9 @@
-class Animal():
-    def _init_(self, name, length_of_the_legs, number_of_eyes):
-        self.name = name
-        self.length_of_the_legs = length_of_the_legs
-        self.number_of_eyes = number_of_eyes
-    def animal_name(self):
-        print("The name of the animal is:", self.name)
-    def leg_length(self):
-        print("The length of the leg is:", self.length_of_the_legs)
-    def eye_number(self):
-        print("The number of eye is:", self.number_of_eyes)
-
-        
-
+class Animal:
+  def __init__(self, name, length_of_the_legs, number_of_eyes):
+    self.name = name
+    self.length_of_the_legs = length_of_the_legs
+    self.number_of_eyes = number_of_eyes
+  def myfunc(self):
+    print("The name of the animal is:" + self.name)
+    print("The length of the leg is:", self.length_of_the_legs)
+    print("The number of eye is:", self.number_of_eyes)
