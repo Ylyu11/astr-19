@@ -7,3 +7,5 @@ class Animal:
     print("The name of the animal is:" + self.name)
     print("The length of the leg is:", self.length_of_the_legs)
     print("The number of eye is:", self.number_of_eyes)
+cat = Animal("cat", 43, 2)
+cat.myfunc()
