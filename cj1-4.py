@@ -9,6 +9,6 @@ class Animal():
         print("The length of the leg is:", self.length_of_the_legs)
     def eye_number(self):
         print("The number of eye is:", self.number_of_eyes)
-print(Animal())
+
         
 
